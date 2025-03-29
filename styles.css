@@ -129,21 +129,73 @@ footer {
     z-index:1000;
 }
 
+/* Ajustes para telas menores */
 @media (max-width: 768px) {
-    nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    header {
+        font-size: 24px;
+        padding: 15px;
     }
-    nav a {
-        margin: 5px 0;
+
+    nav {
         font-size: 16px;
     }
+
+    nav a {
+        padding: 15px 10px;
+        font-size: 16px;
+    }
+
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
     .services {
         flex-direction: column;
         align-items: center;
     }
+
     .service {
-        width: 90%;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .banner img {
+        width: 80%;
+        height: auto;
+    }
+
+    .WhatsApp img {
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .contact, .about {
+        padding: 15px;
+    }
+}
+
+/* Ajustes para telas muito pequenas (ex: smartphones em modo retrato) */
+@media (max-width: 480px) {
+    nav a {
+        font-size: 14px;
+        padding: 10px 5px;
+    }
+
+    .service {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .banner img {
+        width: 100%;
+        height: auto;
+    }
+
+    .WhatsApp img {
+        width: 45px;
+        height: 45px;
     }
 }
