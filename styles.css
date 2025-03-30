@@ -60,7 +60,7 @@ h1, h2 {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    width: 90%;
+    width: 300px;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
     color: #f6e4bd;
 }
@@ -156,7 +156,7 @@ footer {
     }
 
     .service {
-        width: 100%;
+        width: 90%;
         margin-bottom: 20px;
     }
 
@@ -179,7 +179,7 @@ footer {
 
     .service {
         padding: 15px;
-        width: 100%;
+        width: 90%;
     }
 
     .banner img {
